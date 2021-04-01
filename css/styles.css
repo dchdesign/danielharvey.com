@@ -13,26 +13,42 @@ header{
   padding: 20px;
 }
 
-header h1 {
-  display: inline-block;
-  width: 30%;
-}
 
 header nav {
-  display: inline-block;
-  width: 65;
-  text-align: right;
+    display: inherit;
+    width: 100%;
+    text-align: right;
 }
 
-
-/* Element | file:///Users/danharvey/Documents/Website/danielharvey.com/final-website-project/index.html */
-
-body > header:nth-child(1) > a:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1) {
-  display: inline-block;
+header nav li {
+    display: inline-block;
+    margin: 0 40px;
+    text-align: right;
 }
 
-/* Element | file:///Users/danharvey/Documents/Website/danielharvey.com/final-website-project/index.html */
+header nav a {
+    text-decoration: none;
+    font-family: 'Optima', bold;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: .2s;
+    text-align: right;
+}
 
-body > header:nth-child(1) > a:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(2) {
-  display: inline-block;
+header nav a:hover {
+    border-bottom: 3px solid #333;
+    transition: .2s;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+}
+
+main {
+    min-height: 80vh;
+    margin-top: 5%;
 }
