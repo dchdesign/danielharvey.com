@@ -52,3 +52,34 @@ main {
     min-height: 80vh;
     margin-top: 5%;
 }
+
+footer{
+  padding: 20px;
+}
+
+
+footer nav {
+    display: inherit;
+    width: 100%;
+    text-align: center;
+}
+
+footer nav li {
+    display: inline-block;
+    margin: 0 40px;
+    text-align: right;
+}
+
+footer nav a {
+    text-decoration: none;
+    font-family: 'Optima', bold;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: .2s;
+    text-align: center;
+}
+
+footer nav a:hover {
+    border-bottom: 3px solid #333;
+    transition: .2s;
