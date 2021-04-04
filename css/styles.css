@@ -9,20 +9,16 @@
   border: 0;
 }
 
-header{
-  padding: 20px;
-}
-
-
 header nav {
     display: inherit;
-    width: 100%;
+    max-width: inherit;
     text-align: right;
+    padding: 35px;
 }
 
 header nav li {
     display: inline-block;
-    margin: 0 40px;
+    margin: 20px;
     text-align: right;
 }
 
@@ -50,7 +46,7 @@ header nav a:hover {
 
 main {
     min-height: 80vh;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 footer{
@@ -60,7 +56,7 @@ footer{
 
 footer nav {
     display: inherit;
-    width: 100%;
+    width: inherit;
     text-align: center;
 }
 
