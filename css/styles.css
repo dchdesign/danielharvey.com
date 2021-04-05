@@ -9,17 +9,31 @@
   border: 0;
 }
 
+/*===========================
+
+--Header Styling
+
+================================*/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+}
+
 header nav {
     display: inherit;
     max-width: inherit;
-    text-align: right;
-    padding: 35px;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    right: -200px;
 }
 
 header nav li {
     display: inline-block;
     margin: 20px;
-    text-align: right;
+    top: 40px;
 }
 
 header nav a {
@@ -29,7 +43,6 @@ header nav a {
     color: #333;
     font-weight: bold;
     transition: .2s;
-    text-align: right;
 }
 
 header nav a:hover {
@@ -37,20 +50,81 @@ header nav a:hover {
     transition: .2s;
 }
 
-.center {
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 175px;
+  width: 185px;
+  padding-top: 35px;
+  animation: logodrop 1s linear;
 }
 
+/*===========================
+
+--Main body Styling
+
+================================*/
+
 main {
-    min-height: 80vh;
-    margin-top: 2%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Optima', bold;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 300px;
 }
+
+.customtext{
+  color: gray;
+  font-size: 24px;
+  display: block;
+}
+
+.container {
+  display:inline-block;
+  margin-right: auto;
+  margin-right: auto;
+}
+
+.photography img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+  z-index: 99;
+}
+
+/*===========================
+
+--Footer Styling
+
+================================*/
+
+.bottomlogo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 98;
+}
+
+.bottomleftlogo {
+  float:left;
+}
+
 
 footer{
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: white;
+  text-decoration: none;
+  font-family: 'Optima', bold;
+  font-size: 10px;
+  color: #333;
+  font-weight: bold;
 }
 
 
@@ -62,8 +136,11 @@ footer nav {
 
 footer nav li {
     display: inline-block;
-    margin: 0 40px;
-    text-align: right;
+    margin: 0 170px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 214px;
+    text-align: center;
 }
 
 footer nav a {
@@ -79,3 +156,18 @@ footer nav a {
 footer nav a:hover {
     border-bottom: 3px solid #333;
     transition: .2s;
+
+
+/*===========================
+
+--Animation Styling
+
+================================*/
+
+@keyframes logodrop {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0px);
+  }
