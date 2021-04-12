@@ -179,9 +179,42 @@ main nav a:hover {
   right: -200px;
   z-index: 90;
   margin: 15px;
-
 }
 
+.contact-info {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    margin: 30px;
+    display: inline-block;
+    top: -500px;
+}
+
+.studio-image img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  z-index: 95;
+  position: relative;
+  right: 525px;
+}
+
+.studio-map img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  z-index: 95;
+  position: relative;
+  right: -525px;
+  top: -815px;
+
+}
 
 /*===========================
 
