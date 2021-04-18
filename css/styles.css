@@ -66,6 +66,40 @@ header nav a:hover {
 
 ================================*/
 
+
+.contact-forms {
+  padding: 30px;
+  border-radius: 5px;
+  background: grey;
+  max-width: 500px;
+  font-family: serif;
+  margin: auto;
+  text-align: left;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.input-section {
+  margin-bottom: 5px;
+  font-family: 'Optima', serif;
+}
+
+input {
+  padding: 5px;
+  font-family: 'Optima'
+}
+
+div.submit {
+  font-family: 'Optima', serif;
+}
+
+textarea {
+  font-family: 'Optima';
+  padding: 5px;
+}
+
 main {
   text-align: center;
   text-decoration: none;
@@ -212,7 +246,7 @@ main nav a:hover {
   z-index: 95;
   position: relative;
   right: -525px;
-  top: -815px;
+  top: -1215px;
 
 }
 
