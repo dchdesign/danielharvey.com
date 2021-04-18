@@ -110,20 +110,6 @@
       transition: .2s;
   }
 
-  /*===========================
-
-  --Animation Styling
-
-  ================================*/
-
-  @keyframes logodrop {
-    from {
-      transform: translateY(-200px);
-    }
-    to {
-      transform: translateY(0px);
-    }
-
 </style>
 
   <header>

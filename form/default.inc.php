@@ -109,54 +109,37 @@
       border-bottom: 3px solid #333;
       transition: .2s;
   }
+ </style>
 
-  /*===========================
+  <header>
 
-  --Animation Styling
+    <div class="header">
+      <a href="index.html">
+        <img class=logo src="images/dhcameralogo.jpg" alt="DH-Logo" width="175"></a>
 
-  ================================*/
+      <nav>
+        <ul>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+      </div>
 
-  @keyframes logodrop {
-    from {
-      transform: translateY(-200px);
-    }
-    to {
-      transform: translateY(0px);
-    }
+    </header>
 
-</style>
 
-<header>
+  <div class="container">
+    <h1>Sorry something went wrong with your submission</h1>
+    <p>Please try again</p>
+  </div>
 
-  <div class="header">
-    <a href="index.html">
-      <img class=logo src="images/dhcameralogo.jpg" alt="DH-Logo" width="175"></a>
-
+  <footer>
     <nav>
-      <ul>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
+    <ul>
+
+      <li><a href="people.html">portraits</a></li>
+
+      <li><a href="things.html">products</a></li>
+    </ul>
     </nav>
-    </div>
-
-  </header>
-
-
-
-
-<div class="container">
-  <h1>Sorry something went wrong with your submission</h1>
-  <p>Please try again</p>
-</div>
-
-<footer>
-  <nav>
-  <ul>
-
-    <li><a href="people.html">portraits</a></li>
-
-    <li><a href="things.html">products</a></li>
-  </ul>
-  </nav>
-</footer>
+  </footer>
