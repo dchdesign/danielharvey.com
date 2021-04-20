@@ -246,7 +246,7 @@ main nav a:hover {
   z-index: 95;
   position: relative;
   right: -525px;
-  top: -1215px;
+  top: -1160px;
 
 }
 
@@ -321,8 +321,9 @@ footer nav a:hover {
 
 @keyframes logodrop {
   from {
-    transform: {translateY(-200px);}
+    transform: translateY(-200px);}
   }
   to {
-    transform: {translateY(0px);}
+    transform: translateY(0px);}
   }
+  </style>
