@@ -109,6 +109,21 @@
       border-bottom: 3px solid #333;
       transition: .2s;
   }
+
+  @keyframes logodrop {
+    from {
+      transform: {translateY(-200px);}
+    }
+    to {
+      transform: {translateY(0px);}
+    }
+
+  .container {
+    padding-top: 300px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
  </style>
 
   <header>
@@ -127,11 +142,12 @@
 
     </header>
 
-
+<main>
   <div class="container">
     <h1>Sorry something went wrong with your submission</h1>
     <p>Please try again</p>
   </div>
+</main>
 
   <footer>
     <nav>
