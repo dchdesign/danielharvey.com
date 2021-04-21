@@ -113,10 +113,9 @@
 
   @keyframes logodrop {
     from {
-      transform: {translateY(-200px);}
-    }
+      transform: translateY(-200px);}
     to {
-      transform: {translateY(0px);}
+      transform: translateY(0px);}
     }
 
   </style>
