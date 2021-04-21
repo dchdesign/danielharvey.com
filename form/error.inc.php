@@ -54,17 +54,12 @@
   }
 
 
-	.bottomlogo {
-	  position: absolute;
-	  bottom: 0;
-	  right: 0;
-	  z-index: 98;
-	}
-
-	.bottomleftlogo {
-	  float:left;
-	}
-
+  .container {
+    padding-top: 300px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
 
 	footer{
 	  padding: 10px;
@@ -111,48 +106,62 @@
 	    transition: .2s;
 	}
 
-</style>
+  /*===========================
 
-<header>
+  --Animation Styling
 
-  <div class="header">
-    <a href="index.html">
-      <img class=logo src="images/dhcameralogo.jpg" alt="DH-Logo" width="175"></a>
+  ================================*/
 
-    <nav>
-      <ul>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-    </nav>
-    </div>
+  @keyframes logodrop {
+    from {
+      transform: {translateY(-200px);}
+    }
+    to {
+      transform: {translateY(0px);}
+    }
 
-  </header>
+  </style>
+
+  <header>
+
+    <div class="header">
+      <a href="index.html">
+        <img class=logo src="images/dhcameralogo.jpg" alt="DH-Logo" width="175"></a>
+
+      <nav>
+        <ul>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+      </div>
+
+    </header>
 
 
-<div class="container">
-	<h1>Something is missing</h1>
-	<p>Sorry, you have not completed all of the required fields.</p>
-	<p>Please complete the required fields.</p>
+  <div class="container">
+  	<h1>Something is missing</h1>
+  	<p>Sorry, you have not completed all of the required fields.</p>
+  	<p>Please complete the required fields.</p>
 
-	<ul>
-	<?php
-		for($i=0; $i<count($this->missing_required_fields); $i++){
-			echo "<li>" . $this->missing_required_fields[$i]['title'] . "</li>\n";
-		}
-	?>
-	</ul>
+  	<ul>
+  	<?php
+  		for($i=0; $i<count($this->missing_required_fields); $i++){
+  			echo "<li>" . $this->missing_required_fields[$i]['title'] . "</li>\n";
+  		}
+  	?>
+  	</ul>
 
-	<p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
-</div>
+  	<p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+  </div>
 
-<footer>
-	<nav>
-	<ul>
+  <footer>
+  	<nav>
+  	<ul>
 
-		<li><a href="people.html">portraits</a></li>
+  		<li><a href="people.html">portraits</a></li>
 
-		<li><a href="things.html">products</a></li>
-	</ul>
-	</nav>
-</footer>
+  		<li><a href="things.html">products</a></li>
+  	</ul>
+  	</nav>
+  </footer>

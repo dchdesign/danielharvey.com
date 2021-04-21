@@ -9,7 +9,7 @@ $form->processForm(
 
 	'danielharvey.com' // Put you mail domain here
 	,
-	'Assignment 5' // Put your site name / form name here
+	'Daniel Harvey' // Put your site name / form name here
 	,
 	'daniel.harvey@ufl.edu' // Where will the form notification be sent?
 	,

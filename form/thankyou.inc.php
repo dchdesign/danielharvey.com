@@ -1,3 +1,4 @@
+
 <style type="text/css">
 
 * {
@@ -52,65 +53,73 @@
     animation: logodrop 1s linear;
   }
 
-
-  .bottomlogo {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 98;
+  .container {
+    padding-top: 300px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
 
-  .bottomleftlogo {
-    float:left;
-  }
+	footer{
+	  padding: 10px;
+	  position: fixed;
+	  width: 100%;
+	  bottom: 0;
+	  background: white;
+	  text-decoration: none;
+	  font-family: 'Optima', bold;
+	  font-size: 10px;
+	  color: #333;
+	  font-weight: bold;
+	  z-index: 97;
+	}
+
+	footer nav {
+	    display: inherit;
+	    width: inherit;
+	    text-align: center;
+	}
+
+	footer nav li {
+	    display: inline-block;
+	    margin: 0 170px;
+	    margin-bottom: 0px;
+	    margin-left: 165px;
+	    margin-right: 195px;
+	    text-align: center;
+	}
+
+	footer nav a {
+	    text-decoration: none;
+	    font-family: 'Optima', bold;
+	    font-size: 18px;
+	    color: #333;
+	    font-weight: bold;
+	    transition: .2s;
+	    text-align: center;
+	}
+
+	footer nav a:hover {
+	    border-bottom: 3px solid #333;
+	    transition: .2s;
+	}
+
+  /*===========================
+
+  --Animation Styling
+
+  ================================*/
+
+  @keyframes logodrop {
+    from {
+      transform: translateY(-200px);
+    }
+    to {
+      transform: translateY(0px);
+    }}
 
 
-  footer{
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    background: white;
-    text-decoration: none;
-    font-family: 'Optima', bold;
-    font-size: 10px;
-    color: #333;
-    font-weight: bold;
-    z-index: 97;
-  }
-
-
-  footer nav {
-      display: inherit;
-      width: inherit;
-      text-align: center;
-  }
-
-  footer nav li {
-      display: inline-block;
-      margin: 0 170px;
-      margin-bottom: 0px;
-      margin-left: 165px;
-      margin-right: 195px;
-      text-align: center;
-  }
-
-  footer nav a {
-      text-decoration: none;
-      font-family: 'Optima', bold;
-      font-size: 18px;
-      color: #333;
-      font-weight: bold;
-      transition: .2s;
-      text-align: center;
-  }
-
-  footer nav a:hover {
-      border-bottom: 3px solid #333;
-      transition: .2s;
-  }
-
-</style>
+  </style>
 
   <header>
 
@@ -128,20 +137,22 @@
 
   </header>
 
-<div class="container">
+  <main>
+    <div class="container">
 
-  <h1>thank you</h1>
-  <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
+      <h1>thank you</h1>
+      <p>we have received your message, and we will be in touch shortly.</p>
 
-</div>
+    </div>
+  </main>
 
-<footer>
-  <nav>
-  <ul>
+  <footer>
+    <nav>
+    <ul>
 
-    <li><a href="people.html">portraits</a></li>
+      <li><a href="people.html">portraits</a></li>
 
-    <li><a href="things.html">products</a></li>
-  </ul>
-  </nav>
-</footer>
+      <li><a href="things.html">products</a></li>
+    </ul>
+    </nav>
+  </footer>

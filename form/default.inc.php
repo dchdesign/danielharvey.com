@@ -52,18 +52,13 @@
     animation: logodrop 1s linear;
   }
 
+  .container {
+    padding-top: 300px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
 
-  .bottomlogo {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 98;
   }
-
-  .bottomleftlogo {
-    float:left;
-  }
-
 
   footer{
     padding: 10px;
@@ -110,6 +105,12 @@
       transition: .2s;
   }
 
+  /*===========================
+
+  --Animation Styling
+
+  ================================*/
+
   @keyframes logodrop {
     from {
       transform: {translateY(-200px);}
@@ -118,13 +119,7 @@
       transform: {translateY(0px);}
     }
 
-  .container {
-    padding-top: 300px;
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
- </style>
+  </style>
 
   <header>
 
@@ -142,11 +137,14 @@
 
     </header>
 
+
 <main>
+
   <div class="container">
     <h1>Sorry something went wrong with your submission</h1>
     <p>Please try again</p>
   </div>
+
 </main>
 
   <footer>
