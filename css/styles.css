@@ -146,8 +146,7 @@ main nav a:hover {
   display: block;
 }
 
-
-  main nav li {
+main nav li {
       display: inline-block;
       margin: 0 170px;
       margin-bottom: 40px;
@@ -156,7 +155,7 @@ main nav a:hover {
       text-align: center;
   }
 
-  main nav a {
+main nav a {
       text-decoration: none;
       font-family: 'Optima', bold;
       font-size: 18px;
@@ -166,7 +165,7 @@ main nav a:hover {
       text-align: center;
   }
 
-  main nav a:hover {
+main nav a:hover {
       border-bottom: 3px solid #333;
       transition: .2s;
 }
@@ -322,8 +321,8 @@ footer nav a:hover {
 @keyframes logodrop {
   from {
     transform: translateY(-200px);}
-  }
   to {
     transform: translateY(0px);}
   }
+  
   </style>
