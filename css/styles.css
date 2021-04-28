@@ -170,6 +170,9 @@ main nav a:hover {
       transition: .2s;
 }
 
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
 
 .photography img {
   width: 400px;
@@ -199,6 +202,7 @@ main nav a:hover {
   right: 210px;
   z-index:90;
   margin: 15px;
+  font-family: 'Optima', sans-serif;
 }
 
 .aboutphotography {
@@ -212,6 +216,7 @@ main nav a:hover {
   right: -200px;
   z-index: 90;
   margin: 15px;
+  font-family: 'Optima', sans-serif;
 }
 
 .contact-info {
