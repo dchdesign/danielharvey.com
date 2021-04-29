@@ -183,13 +183,45 @@ h3 {
   z-index: 99;
 }
 
-.self-portrait img {
+.self-portrait {
   width: 400px;
   height: 500px;
   object-fit: cover;
   margin: 15px;
   display: inline-block;
   z-index: 99;
+}
+
+.couple {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+  z-index: 99;
+  transition: 2s;
+}
+
+.fan {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+  z-index: 99;
+  transition: 2s;
+}
+
+.couple:hover {
+  height: 600px;
+  width: 500px;
+  transition: 2s;
+}
+
+.fan:hover {
+  height: 600px;
+  width: 500px;
+  transition: 2s;
 }
 
 .aboutme {
