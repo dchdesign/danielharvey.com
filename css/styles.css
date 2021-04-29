@@ -183,7 +183,7 @@ h3 {
   z-index: 99;
 }
 
-.self-portrait {
+.self-portrait img {
   width: 400px;
   height: 500px;
   object-fit: cover;
